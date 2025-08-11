@@ -1,7 +1,7 @@
 // 固定代理 DeepInfra：/api/deepinfra?path=/xxx&qs=a=b
 // 或直接 /api/deepinfra 用于首页
 
-const BASE = 'https://deepinfra.com';
+const BASE = 'https://api.deepinfra.com';
 
 export default async function handler(req, res) {
   // CORS
